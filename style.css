@@ -28,10 +28,14 @@ span {
     transform: translate(-50%, -50%);
     opacity: 1;
     filter: hue-rotate(0);
+    box-shadow: 0 0 10px 10px rgb(255, 0, 0);
+    border-radius: 50%;
   }
   100% {
     transform: translate(-50%, -5000%);
     opacity: 0;
     filter: hue-rotate(720deg);
+    box-shadow: 0 0 15px 15px red;
+    border-radius: 100%;
   }
 }
